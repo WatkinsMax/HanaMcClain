@@ -1,0 +1,417 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Frank Ruhl Libre', serif;
+        background-color: #f7faff;
+        height: 100%;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: 0px;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: 'Frank Ruhl Libre', serif;
+        letter-spacing: 1px;
+        font-weight: 100;
+        text-transform: capitalize;
+        z-index: -100;
+    }
+
+    h3 {
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    footer {
+        bottom: 0;
+        /*        display: block;*/
+        text-align: center;
+        padding-bottom: 20px;
+        color: #d8d8d8;
+        font-size: 20px;
+        margin-top: 2px;
+        position: fixed;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+
+    /* --------------------------------------------------------------------------------------------------- BACKGROUNDS, START ---------------------------------------------------------------------------------------------------------------- */
+
+    #landing {
+        background-image: url("/resources/images/bgImage.jpg");
+        min-height: 900px;
+        /*	height: 100%;*/
+        background-attachment: repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        opacity: .75;
+        z-index: -2;
+        background: url(/resources/images/bgImage.jpg) repeat scroll center center / cover;
+    }
+
+    #collections,
+    #film,
+    #contact,
+    #about {
+        /*	min-height: 900px;*/
+        height: 115%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        background-color: #f7faff;
+    }
+
+
+
+    /* --------------------------------------------------------------------------------------------------- BACKGROUNDS, END ---------------------------------------------------------------------------------------------------------------- */
+
+    /* --------------------------------------------------------------------------------------------------------- NAV START ---------------------------------------------------------------------------------------------------------------- */
+
+    h2 {
+        color: #c3b9b9;
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------- NAV END ----------------------------------------------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------------------------------------- ABOUT START ---------------------------------------------------------------------------------------------------------------- */
+
+    .profileContainer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hanaProfile {
+        position: relative;
+        float: none;
+        overflow: hidden;
+        width: 85%;
+        padding-top: 30px;
+        margin-bottom: 40px;
+        color: #141414;
+        text-align: left;
+        line-height: 1.4em;
+        font-size: 16px;
+        justify-content: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .hanaProfile * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .hanaProfile img {
+        max-width: 100%;
+        vertical-align: top;
+    }
+
+    .hanaProfile figcaption {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 15px 25px 65px;
+        position: relative;
+    }
+
+    .hanaProfile figcaption:before {
+        position: absolute;
+        content: '';
+        z-index: 2;
+        bottom: 100%;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+        background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+    }
+
+    .hanaProfile h2,
+    .hanaProfile p,
+    .hanaProfile h3 {
+        margin: 0 0 10px;
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+
+    .hanaProfile h2,
+        {
+        font-weight: 100;
+        font-size: 1.5em;
+        line-height: 1.2em;
+        /*  font-family: "Permanent Marker";*/
+    }
+
+    .quoteContainer {
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        display: block;
+    }
+
+    .quote {
+        font-weight: 200;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-align: center;
+        padding: 5px 0;
+        font-style: italic;
+        justify-content: center;
+        display: block;
+    }
+
+    h5 {
+        font-weight: 100;
+        font-size: 1em;
+        line-height: 1.2em;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-align: center;
+        padding: 0;
+        display: block;
+    }
+
+    .hanaProfile h3 {
+        font-weight: 100;
+        font-size: .9em;
+    }
+
+    .hanaProfile p {
+        font-size: 0.9em;
+        letter-spacing: 1px;
+        opacity: 0.9;
+    }
+
+    .hanaProfile .icons {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #e6e6e6;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hanaProfile i {
+        padding: 10px 5px;
+        display: inline-block;
+        font-size: 24px;
+        color: #141414;
+        opacity: 0.65;
+    }
+
+    .hanaProfile i:hover {
+        opacity: 1;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+    }
+
+    /* --------------------------------------------------------------------------------------------------------- ABOUT END ----------------------------------------------------------------------------------------------------------------- */
+
+    /* --------------------------------------------------------------------------------------------------- COLLECTIONS, START ---------------------------------------------------------------------------------------------------------------- */
+
+    .sp-slide {
+        width: 500px;
+        height: auto;
+        display: inline-block;
+    }
+
+
+    /* --------------------------------------------------------------------------------------------------- COLLECTIONS, END ---------------------------------------------------------------------------------------------------------------- */
+
+    /* --------------------------------------------------------------------------------------------------- CONTACT, START ---------------------------------------------------------------------------------------------------------------- */
+
+    .contactHead {
+        font-family: 'Frank Ruhl Libre', serif;
+        text-align: center;
+        display: block;
+        font-size: 1.6em;
+    }
+
+    .contactBox {
+        border: 2px solid #e6e6e6;
+        margin: 30px 20px;
+        padding: 30px 0 30px 0;
+        justify-content: center;
+        display: block;
+    }
+
+
+    address {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    form {
+        display: block;
+        padding-top: 80px;
+        padding-bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+
+    label {
+        font-size: 1.2em;
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+
+    #name,
+    #email,
+    #msg {
+        width: 280px;
+        margin: 15px 0;
+        font-size: 1.2em;
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+
+    #name,
+    #email {
+        height: 40px;
+        padding-left: 5px;
+    }
+
+    #msg {
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+
+    .contactButton {
+        margin-top: 10px;
+        padding: 15px 0;
+        width: 280px;
+        border: 2px solid #e6e6e6;
+        color: #fff;
+        background-color: #e6e6e6;
+    }
+
+    /* --------------------------------------------------------------------------------------------------- CONTACT, END ---------------------------------------------------------------------------------------------------------------- */
+
+    /*------------------------------------------------------------------------------------------------ MEDIA QUERY, MIN 768PX ----------------------------------------------------------------------------------------------------------------*/
+
+    @media only screen and (min-width: 768px) and (max-width: 900px) {
+
+        #landing {
+            height: 100%;
+        }
+
+        .hanaProfile {
+            height: 830px;
+            max-width: 500px;
+            font-size: 1.3em;
+        }
+
+        .quote {
+            width: 100%;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        
+        h5{
+            font-size: 1.4em;
+        }
+    }
+
+    /*------------------------------------------------------------------------------------------------ MEDIA QUERY, MIN 768PX ----------------------------------------------------------------------------------------------------------------*/
+
+    /*------------------------------------------------------------------------------------------------ MEDIA QUERY, MIN 992PX ----------------------------------------------------------------------------------------------------------------*/
+
+    @media only screen and (min-device-width: 992px) {
+        #landing,
+        #collections,
+        #film,
+        #about {
+            background-attachment: scroll;
+            height: 100%;
+        }
+
+        #contact {
+            background-attachment: scroll;
+            height: 107%;
+        }
+
+        #about {
+            width: 100%;
+            height: 800px;
+            margin-bottom: 0;
+        }
+
+        .hanaProfile {
+            height: 850px;
+            max-width: 350px;
+        }
+
+        .quote {
+            margin-top: 50px;
+            width: 100%;
+        }
+
+        .contactBox {
+            padding: 30px 0 30px 0;
+        }
+
+        .contactHead {
+            font-family: 'Frank Ruhl Libre', serif;
+            text-align: left;
+            padding-left: 200px;
+            font-size: 1.6em;
+        }
+
+        address {
+            display: inline-block;
+            float: right;
+            margin: 150px 150px 0 0;
+            font-size: 1.3em;
+        }
+
+        form {
+            display: inline-block;
+            justify-content: center;
+            text-align: left;
+            width: 50%;
+            margin-left: 60px;
+        }
+
+        #name,
+        #email,
+        #msg {
+            width: 450px;
+            margin: 7.5px 0;
+        }
+
+        #name,
+        #email {
+            height: 30px;
+        }
+
+        .contactButton {
+            margin-top: 30px;
+            padding: 10px 0;
+            width: 450px;
+            border: 2px solid #fff;
+            color: #fff;
+            background-color: #e6e6e6;
+        }
+    }
+
+    /*------------------------------------------------------------------------------------------------ MEDIA QUERY, MIN 992PX ----------------------------------------------------------------------------------------------------------------*/
